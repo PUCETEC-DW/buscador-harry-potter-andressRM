@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    text-align: center;   /* Centra todo el texto  */
+}
+
+#resultados {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;   /* Centra las tarjetas horizontalmente */
+}
+
+.personaje {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px #eee;
+    padding: 12px 16px;
+    width: 180px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;        /* Centra el texto dentro de la tarjeta */
+}
+
+.personaje img {
+    border-radius: 6px;
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.personaje h3 {
+    font-size: 18px;
+    margin: 8px 0 4px 0;
+}
+
+.personaje p {
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+}
